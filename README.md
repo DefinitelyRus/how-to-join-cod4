@@ -130,6 +130,8 @@ When it asks you for a product key, enter this: `SJLE-UGY4-QTJD-GYMS-FFA1`
 
 The installer will ask if you want to install DirectX and Visual C++ -- skip them **unless** you've only recently installed Windows on your computer.
 
+Once the base game is done installing, you can **Eject** the virtual disk from your computer.
+
 &nbsp;
 
 
