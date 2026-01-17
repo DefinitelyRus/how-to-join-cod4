@@ -182,6 +182,6 @@ Click "Join Game".
 
 On the options above, set the Source to "Local", then click "Refresh List" (not Quick Refresh).
 
-If none shows up, enter this command: `\connect 10.242.124.233`
+If none shows up, enter this command: `\connect 10.242.124.223`
 
 Pray that it works lmao
