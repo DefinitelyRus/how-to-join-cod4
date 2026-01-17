@@ -62,7 +62,7 @@ If it says "Destination host unreachable", check if you entered the correct IP a
 &nbsp;
 
 ## 3. Download the multiplayer patches and mods
-> Note: If you followed [Method A on Step 1](https://github.com/DefinitelyRus/how-to-join-cod4/blob/main/README.md#method-a---direct-download-simplest), you may skip this step entirely as these files have already been included in the downloaded file.
+> Note: If you downloaded the game via Transfer.it, you may skip this step entirely as these files have already been included in the downloaded file.
 
 ### Method A - Direct Download (Simplest)
 Download the patches and mods on [Transfer.it](https://transfer.it/t/8hK2FqwBjJjK).
@@ -70,6 +70,8 @@ Download the patches and mods on [Transfer.it](https://transfer.it/t/8hK2FqwBjJj
 Extract "COD4 - PATCHES & MODS.zip" once it's done downloading.
 
 **Do NOT yet install any of its contents.**
+
+&nbsp;
 
 ### Method B - Official Sources
 Alternatively, you can download them from their official sources:
@@ -141,7 +143,6 @@ Go to `C:\Program Files (x86)\Activision\Call of Duty 4` and paste the file. Cli
 
 &nbsp;
 
-
 ### 6.2. Multiplayer patches
 Go back to your downloads folder.
 
@@ -171,7 +172,6 @@ Open the Multiplayer game.
 You will be prompted multiple times for various things. Keep opening the game and clicking yes/ok on all prompts until the game starts normally.
 
 &nbsp;
-
 
 ## 8. Join the server
 > Note: Obviously, this will only work while the server is online.
