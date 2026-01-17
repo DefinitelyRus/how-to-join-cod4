@@ -38,7 +38,7 @@ Proceed to [step 2](https://github.com/DefinitelyRus/how-to-join-cod4/blob/main/
 
 The game should begin downloading immediately. It is done once the status says "Seeding" or "Finished".
 
-Proceed to step 2 while the game downloads.
+Proceed to [step 2](https://github.com/DefinitelyRus/how-to-join-cod4/blob/main/README.md#2-download-zerotier) while the game downloads.
 
 &nbsp;
 
@@ -53,11 +53,11 @@ It should output something like this:
 
 <img width="403" height="175" alt="image" src="https://github.com/user-attachments/assets/73ba9f24-1cdd-44d3-8e85-4af08af3743d" />
 
+> **Important**: `10.242.128.229` will NOT be the IP address used in-game.
+
 &nbsp;
 
 If it says "Destination host unreachable", check if you entered the correct IP address and if you're connected to the ZeroTier network in the system tray.
-
-> **Important**: `10.242.128.229` will NOT be the IP address used in-game.
 
 &nbsp;
 
@@ -85,7 +85,7 @@ Alternatively, you can download them from their official sources:
 
 ## 5. Install the game
 ### 5.1A. Find the game download and extract it (Transfer.it)
-> Note: Go to Step 5.1B if you downloaded the game via qBittorrent.
+> Note: Go to [step 5.1B](https://github.com/DefinitelyRus/how-to-join-cod4/blob/main/README.md#51b-find-the-game-download-folder-qbittorrent) if you downloaded the game via qBittorrent.
 
 Go to your browser's downloads folder and extract "COD4 - COMPLETE.zip".
 
@@ -93,12 +93,12 @@ Go to your browser's downloads folder and extract "COD4 - COMPLETE.zip".
 
 &nbsp;
 
-Go to step 5.2.
+Go to [step 5.2](https://github.com/DefinitelyRus/how-to-join-cod4/blob/main/README.md#52-mount-the-iso).
 
 &nbsp;
 
 ### 5.1B. Find the game download folder (qBittorrent)
-> Note: Go to Step 5.1A if you downloaded the game via Transfer.it.
+> Note: Go to [step 5.1A](https://github.com/DefinitelyRus/how-to-join-cod4/blob/main/README.md#51a-find-the-game-download-and-extract-it-transferit) if you downloaded the game via Transfer.it.
 
 Open qBittorrent, right-click on "[CD] Call of Duty 4...", and click "Open Destination Folder".
 
@@ -106,7 +106,7 @@ Open qBittorrent, right-click on "[CD] Call of Duty 4...", and click "Open Desti
 
 &nbsp;
 
-Go to step 5.2.
+Go to [step 5.2](https://github.com/DefinitelyRus/how-to-join-cod4/blob/main/README.md#52-mount-the-iso).
 
 &nbsp;
 
@@ -166,7 +166,12 @@ Open the Multiplayer game.
 
 <img width="354" height="333" alt="image" src="https://github.com/user-attachments/assets/ce54bb4b-ff72-41bf-a86c-fbca86e7f0cf" />
 
+&nbsp;
+
 You will be prompted multiple times for various things. Keep opening the game and clicking yes/ok on all prompts until the game starts normally.
+
+&nbsp;
+
 
 ## 8. Join the server
 > Note: Obviously, this will only work while the server is online.
