@@ -6,7 +6,7 @@
 ### Method A - Direct Download (Simplest)
 Download the game, patches, and mods on [Transfer.it](https://transfer.it/t/6PgKt2xRjZKJ).
 
-Proceed to step 2 while the game downloads.
+Proceed to [step 2](https://github.com/DefinitelyRus/how-to-join-cod4/blob/main/README.md#2-download-zerotier) while the game downloads.
 
 &nbsp;
 
@@ -21,6 +21,8 @@ Proceed to step 2 while the game downloads.
 &nbsp;
 
 #### Step 1.2. Install the program then open it.
+
+<img width="143" height="156" alt="image" src="https://github.com/user-attachments/assets/5414006a-349e-4dd9-a073-b679eaf3936b" />
 
 &nbsp;
 
@@ -60,12 +62,14 @@ If it says "Destination host unreachable", check if you entered the correct IP a
 &nbsp;
 
 ## 3. Download the multiplayer patches and mods
-> Note: If you followed Method A on Step 1, you may skip this step entirely as these files have already been included in the downloaded file.
+> Note: If you followed [Method A on Step 1](https://github.com/DefinitelyRus/how-to-join-cod4/blob/main/README.md#method-a---direct-download-simplest), you may skip this step entirely as these files have already been included in the downloaded file.
 
 ### Method A - Direct Download (Simplest)
 Download the patches and mods on [Transfer.it](https://transfer.it/t/8hK2FqwBjJjK).
 
 Extract "COD4 - PATCHES & MODS.zip" once it's done downloading.
+
+**Do NOT yet install any of its contents.**
 
 ### Method B - Official Sources
 Alternatively, you can download them from their official sources:
@@ -74,6 +78,8 @@ Alternatively, you can download them from their official sources:
 - [COD4X Mod](https://cod4x.ovh/)
 - [Promod + Bot Warfare](https://www.moddb.com/mods/promod-bot-warfare/downloads/promod-bot-warfare)
   - Extract "Promod_Bot_Warfare.1.rar".
+
+**Do NOT yet install any of these files.**
 
 &nbsp;
 
@@ -99,3 +105,76 @@ Open qBittorrent, right-click on "[CD] Call of Duty 4...", and click "Open Desti
 <img width="470" height="472" alt="image" src="https://github.com/user-attachments/assets/73804027-ea8c-4676-86fe-94d6ee482209" />
 
 &nbsp;
+
+Go to step 5.2.
+
+&nbsp;
+
+### 5.2. Mount the ISO
+Look for "Call of Duty 4 - Modern Warfare.iso", right-click on it, then click "Mount".
+
+> Note: If you downloaded the game via Transfer.it, the ISO is in the "Call of Duty 4 - Modern Warfare" folder.
+
+This will mount the file as a virtual disk on your computer.
+
+&nbsp;
+
+### 5.3. Install the game
+Go to the mounted drive (may be named "DVD Drive (D:) COD4MW").
+
+Look for "setup.exe" and run it.
+
+When it asks you for a product key, enter this: `SJLE-UGY4-QTJD-GYMS-FFA1`
+
+The installer will ask if you want to install DirectX and Visual C++ -- skip them **unless** you've only recently installed Windows on your computer.
+
+&nbsp;
+
+
+## 6. Install the patches and mods
+### 6.1. Singleplayer patch
+Go back to your downloads folder where you found "Call of Duty 4 - Modern Warfare.iso".
+
+Look for a file named "iw3sp.exe" and copy it.
+
+Go to `C:\Program Files (x86)\Activision\Call of Duty 4` and paste the file. Click yes on all prompts.
+
+&nbsp;
+
+
+### 6.2. Multiplayer patches
+Go back to your downloads folder.
+
+Look for these files, then install them in **this exact order**:
+1. CoD4MW-1.6-PatchSetup.exe
+2. CoD4MW-1.6-1.7-PatchSetup.exe
+3. CoD4x.21.3.Setup.exe
+
+&nbsp;
+
+### 6.3. Multiplayer mods
+Look for the "Promod Bot Warfare" folder and copy **all** of its contents.
+
+Go back to `C:\Program Files (x86)\Activision\Call of Duty 4` and paste all the files. Click yes on all prompts.
+
+&nbsp;
+
+## 7. Play the game
+Open your start menu and search for "Call of Duty 4".
+
+Open the Multiplayer game.
+
+<img width="354" height="333" alt="image" src="https://github.com/user-attachments/assets/ce54bb4b-ff72-41bf-a86c-fbca86e7f0cf" />
+
+You will be prompted multiple times for various things. Keep opening the game and clicking yes/ok on all prompts until the game starts normally.
+
+## 8. Join the server
+> Note: Obviously, this will only work while the server is online.
+
+Click "Join Game".
+
+On the options above, set the Source to "Local", then click "Refresh List" (not Quick Refresh).
+
+If none shows up, enter this command: `\connect 10.242.124.233`
+
+Pray that it works lmao
